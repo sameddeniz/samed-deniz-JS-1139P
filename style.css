@@ -1,0 +1,36 @@
+.scoreStyle {
+  color: rgb(23, 23, 136);
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.btn-outline-score {
+  background-color: rgb(133, 207, 207) !important;
+  color: rgb(0, 0, 0) !important;
+  width: 100px;
+  border-color: rgb(23, 23, 136) !important;
+  border-radius: 25px;
+}
+.btn-outline-secondary {
+  background-color: rgb(34, 92, 92) !important;
+  color: rgb(255, 255, 255) !important;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.pageBackground {
+  position: relative;
+  padding: 20rem 0;
+  background-image: url(/stat.jpg) ;
+  background-position: center;
+  background-size: cover;
+}
+
+.pageBackground .pageBackground-content {
+  position: relative;
+  z-index: 9999;
+  border: solid rgb(23, 23, 136) 5px;
+  background-color: rgb(207, 194, 157);
+  padding-bottom: 30px;
+  width: 40%;
+}
